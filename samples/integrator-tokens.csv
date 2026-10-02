@@ -1,0 +1,7 @@
+token_id,vendor,scope,system,issued,expires,last_used,owner
+VT-1044,Northline Integrators,plc-write,line-3-plc,2026-06-01,2026-10-04,2026-09-28,vendor-desk
+VT-1102,Northline Integrators,historian-read,plant-historian,2026-07-12,2026-10-09,2026-09-18,vendor-desk
+VT-1188,Copperfield OT,vpn-jump,ics-jump-01,2026-04-02,2026-09-20,2026-09-19,vendor-desk
+VT-1210,Copperfield OT,backup-admin,ot-backup,2026-08-01,2026-11-15,2026-09-30,vendor-desk
+VT-1301,Halden Remote,hmi-config,hmi-packaging,2026-09-01,2026-10-28,2026-09-29,controls
+VT-1404,Halden Remote,read-only,scada-view,2026-01-15,2027-01-15,2026-08-02,controls
