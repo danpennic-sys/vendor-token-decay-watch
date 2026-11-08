@@ -20,7 +20,7 @@ Bands: expired; critical at 7 days or fewer; warning at 14 days or fewer; info a
 ## Run
 
 ```bash
-python3 decay.py --tokens samples/integrator-tokens.csv --as-of 2026-10-02
+python3 src/tokenwatch.py --tokens samples/integrator-tokens.csv --as-of 2026-10-02
 ```
 
 Outputs a CONTRACT-v1 bundle and a readable payload. A local demo check prints demo_verdict=PASS. The canonical verifier remains the frozen Go function in https://github.com/danpennic-sys/quantumguard. This Python check is a buyer preview, not a second production verifier.
